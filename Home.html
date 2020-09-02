@@ -1,0 +1,195 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title> a Goonj initiative</title>
+	<style>
+	input,select{height:30px;width:200px; border:none;border-radius:6px;padding:5px;}
+	li{list-style:none;border-bottom:2px solid;border-bottom-color:rgb(211,211,211);}
+	#a1{text-decoration:none;color:white;font-weight: bold;}
+	#a2{text-decoration:none;}
+	#d2{
+	/*position:absolute;*/
+	background-repeat: no-repeat;
+    background-size: cover;
+  	/*background-position: center;*/
+  	height: 100vh;
+  	width: 100%;
+	}
+	 #ngo{
+    	width: 100%;
+    }
+    #table{font-weight:bold;background-color:orange;color:white;}
+	#d3{margin-left:100px;}
+	#image{float:left;width:50%;height:570px;}
+	#new{margin-left:40px;}
+	#im{float:left;}
+	#li{height:25px;width:25px;}
+	.sticky {
+  		position: -webkit-sticky;		
+  		position: sticky;
+  		overflow: auto;
+  		background-color: rgb(255, 165, 0,0.6);
+  		top:0;
+  		padding: 10px;
+  		margin-left:10px; 
+  		font-family: cursive;
+  		color: white;
+  		font-size: larger;
+  		margin:0;
+		}
+	.button {
+        background-color:orange;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+    	}
+    .sticky,#formwrap,#ngo{
+  display: flex;
+}
+   .sticky a,#formwrap img,#formwrap form,#ngo td{
+  flex: auto;
+}
+    @media (max-width: 1000px) {
+   #new{
+    flex-wrap: wrap;
+  }
+   #new a{
+    width: 50%;
+  }
+   #new img{
+    width: 50%;
+  }
+  #new p{
+    width: 50%;
+  }
+}
+    @media (max-width: 670px) {
+  .sticky,#formwrap,#ngo{
+    flex-direction: column;
+  }
+  .sticky a{
+    margin: 0 auto;
+  }
+  #formwrap img{
+    margin: 0 auto;
+  }
+  #formwrap form{
+    margin: 0 auto;
+  }
+  #formwrap table{
+    margin: 0 auto;
+  }
+  #ngo td img{
+    margin: 0 auto;
+  }
+
+  #ngo td div ul{
+    margin: 0 auto;
+  }
+}
+
+	</style>
+	</head>
+	<body>
+     
+	<div class="sticky">
+	<a href="#d3" id="a1">CONTACT US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="https://goonj.org/donate/" id="a1">DONATE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>*ASSAM NEEDS HELP*<a href="#news" style="float:right;" id="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEWS & ARTICLES&nbsp;</a><a href="#ngos" style="float:right;" id="a1">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT NGO'S
+	</a></div>
+   	<img src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/144630-qwtuqhuxwf-1595157135.jpg" id="d2"/>
+	 
+	<div id="d3"><br><br><br><p style="color:white;">
+	<h1><center>OUR POLICY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</center></h1><br>
+   	We as a community member of <b>GOONJ</b> make every effort to respond to your  requests within 24 hours, or usually less.<br> Our members have their own voices and We as a team support volunteers from anywhere in the globe. We are also able<br> to connect with  the NGO's all around INDIA to many of the families and loved ones of those who have been hit hard by<br> the floods. We just want to bring smile on all those helpless faces who have been badly hit by the natural disasters.<br><br><center><a href="#form" class="button">CONTACT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</center><br><br><br><br>
+	</div>
+	<br><br><br><br><br id="form"><br><br>
+	<div id="formwrap">
+	<img src="https://cdn.dribbble.com/users/3005912/screenshots/7144480/media/489f6866bffa9247aee5c04ea2556196.jpg" id="image">
+	<form style="background-color:orange;float:right;width:50%;height:570px;" id="f">
+		<table cellspacing="20px" id="table">
+			<tr><td colspan="2" style="color: white;font-weight:bold;"><center>PLEASE FILL THE FORM BELOW</center></td></tr>
+			<tr><td>NAME*</td><td><center><input type="text" placeholder="NAME" required></td></center></tr>
+			<tr><td>CONTACT NUMBER*</td><td><center><input type="text" placeholder="123-456-7890" required></center></td></tr>
+			<tr><td>EMAIL</td><td><center><input type="email" placeholder="EMAIL"></center></td></tr>
+			<tr><td>WHO ARE YOU ?</td><td><center><select>
+				<option>Community member</option>
+				<option>Volunteer</option>
+				<option>Social Worker</option>
+				<option>Press and Media worker</option>
+				<option>Others</option>
+			</select></center></td></tr>
+			<tr><td>MESSAGE</td><td>&nbsp;&nbsp;&nbsp;&nbsp;<textarea rows="4" cols="30" style="border-radius:6px;"></textarea></td></tr>
+			<tr><td></td><td><center><button style="background-color:white;border:none;height:40px;border-radius:6px;">Submit</button></center></td></tr>
+		</table>
+	</form>
+	</div>
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br id="ngos"><br>
+     <h1><center>NGO'S</center></h1>
+    <table id="ngo" cellspacing="140px">
+	<tr><td id="tdwrap">
+		    <img style="border-radius:6px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRe0gPmKcp4EjY2LdanK8-0lcr837uDDTRmeQ&usqp=CAU" id="formim">
+		</td><td id="tdwrap">
+			<div class="ngo-location-map"><a id="a2" target="_blank" href="https://www.google.co.in/maps/place/67+2,Srestha+Retreat,Tirumullaivoyal,Chennai,Tamil+Nadu,India"><img style="border-radius:6px;" width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=67%2B2%2CSrestha%2BRetreat%2CTirumullaivoyal%2CChennai%2CTamil%2BNadu%2CIndia&amp;key=AIzaSyChXtwPelOGYKZ8MptGIGYvcwQZRW0rVzo&amp;zoom=16&amp;scale=false&amp;size=600x175&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C67%2B2%2CSrestha%2BRetreat%2CTirumullaivoyal%2CChennai%2CTamil%2BNadu%2CIndia" alt="Google Map of 67/2, Srestha Retreat, Tirumullaivoyal, Chennai, Tamil Nadu, India, 600062"></a><br><ul><li>
+	    		<img src="https://www.easternapiculture.org/images/Conference/2020/promotional_material/google_map_icon.png" id="li">&nbsp;&nbsp;
+	    			<a id="a2" target="_blank" href="https://www.google.co.in/maps/place/67+2,Srestha+Retreat,Tirumullaivoyal,Chennai,Tamil+Nadu,India">67/2, Srestha Retreat, Tirumullaivoyal, Chennai, Tamil Nadu, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India, 600062</a></li><li>
+	    		<img src ="https://icons-for-free.com/iconfiles/png/512/contact+mobile+phone+telephone+icon-1320168260690280424.png" id="li">&nbsp;&nbsp;
+	    		   <a id="a2" href="tel:+919884802017">+919884802017</a></li><li>
+	    		<img src ="https://previews.123rf.com/images/victor85/victor851711/victor85171100325/90448526-mail-icon-with-long-shadow-flat-design-style-round-icon-mail-silhouette-simple-circle-icon-modern-fl.jpg" id="li">&nbsp;&nbsp;
+	    		   <a id="a2" href="mailto:info@rapidresponse.org.in">info@rapidresponse.org.in</a></li>
+	    	</ul></div>
+    </td></tr>
+	<tr><td id="tdwrap">
+			<img style="border-radius:6px;" id="formim" src="https://letzchangefiles.s3.ap-southeast-1.amazonaws.com/9b402115-3f57-4862-b19b-d58b18be63ee.jpg">
+		</td><td id="tdwrap">
+			<div class="ngo-location-map"><a id="a2" target="_blank" href="https://www.google.co.in/maps/place/67+2,Srestha+Retreat,Tirumullaivoyal,Chennai,Tamil+Nadu,India"><img style="border-radius:6px;"width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=J-93%2CSarita%2BVihar%2CNew%2BDelhi%2CDelhi%2CIndia&amp;key=AIzaSyChXtwPelOGYKZ8MptGIGYvcwQZRW0rVzo&amp;zoom=16&amp;scale=false&amp;size=600x175&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CJ-93%2CSarita%2BVihar%2CNew%2BDelhi%2CDelhi%2CIndia" alt="Google Map of J-93, Sarita Vihar, New Delhi, Delhi, India, 110076"></a><br>
+	    	<ul><li>
+	    		<img src="https://www.easternapiculture.org/images/Conference/2020/promotional_material/google_map_icon.png" id="li">&nbsp;&nbsp;
+	    		<a id="a2" target="_blank" href="https://www.google.co.in/maps/place/J-93,Sarita+Vihar,New+Delhi,Delhi,India">J-93, Sarita Vihar, New Delhi, Delhi, India, 110076</a></li><li><img src ="https://icons-for-free.com/iconfiles/png/512/contact+mobile+phone+telephone+icon-1320168260690280424.png" id="li">&nbsp;&nbsp;
+	    		<a id="a2" href="tel:+911126972351">+911126972351</a></li><li>
+	    		<img src ="https://previews.123rf.com/images/victor85/victor851711/victor85171100325/90448526-mail-icon-with-long-shadow-flat-design-style-round-icon-mail-silhouette-simple-circle-icon-modern-fl.jpg" id="li">&nbsp;&nbsp;
+	    		<a id="a2" href="mailto:mail@goonj.org">mail@goonj.org</a></li>
+	    	</ul>
+	    	</div>
+			
+	</td></tr>
+	<tr><td id="tdwrap">
+			<img style="border-radius:6px;" id="formim" src="https://letzchangefiles.s3.ap-southeast-1.amazonaws.com/9eae1190-c165-44af-b1da-6e865478219e.jpg"></td>
+		<td id="tdwrap">
+			<div class="ngo-location-map"><a id="a2" target="_blank" href="https://www.google.co.in/maps/place/1st+Floor,102,Dhantak+Plaza,Dhantak+Plaza,Makwana+Road,+Andheri+East,Mumbai,Maharashtra,India"><img width="600" style="border-radius:6px;" src="https://maps.googleapis.com/maps/api/staticmap?center=1st%2BFloor%2C102%2CDhantak%2BPlaza%2CDhantak%2BPlaza%2CMakwana%2BRoad%2C%2BAndheri%2BEast%2CMumbai%2CMaharashtra%2CIndia&amp;key=AIzaSyChXtwPelOGYKZ8MptGIGYvcwQZRW0rVzo&amp;zoom=16&amp;scale=false&amp;size=600x175&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C1st%2BFloor%2C102%2CDhantak%2BPlaza%2CDhantak%2BPlaza%2CMakwana%2BRoad%2C%2BAndheri%2BEast%2CMumbai%2CMaharashtra%2CIndia" alt="Google Map of 1st Floor, 102, Dhantak Plaza, Dhantak Plaza, Makwana Road,  Andheri East, Mumbai, Maharashtra, India, 400059"></a><br>
+	    	<ul><li>
+	    		<img src="https://www.easternapiculture.org/images/Conference/2020/promotional_material/google_map_icon.png" id="li">&nbsp;&nbsp;
+	    		<a id="a2" target="_blank" href="https://www.google.co.in/maps/place/1st+Floor,102,Dhantak+Plaza,Dhantak+Plaza,Makwana+Road,+Andheri+East,Mumbai,Maharashtra,India">1st Floor,Dhantak Plaza,  Andheri East, Mumbai, Maharashtra, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India, 400059</a></li><li>
+	    	    <img src ="https://icons-for-free.com/iconfiles/png/512/contact+mobile+phone+telephone+icon-1320168260690280424.png" id="li">&nbsp;&nbsp;
+	    	    <a id="a2" href="tel:+912267846868">+912267846868</a></li><li>
+	    		<img src ="https://previews.123rf.com/images/victor85/victor851711/victor85171100325/90448526-mail-icon-with-long-shadow-flat-design-style-round-icon-mail-silhouette-simple-circle-icon-modern-fl.jpg" id="li">&nbsp;&nbsp;
+	    		<a id="a2" href="mailto:info@hfhindia.org">info@hfhindia.org</a></li>
+	    	</ul>
+	    	</div>
+			
+		</td>
+	</tr>
+	</table><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br id="news"><br><br>
+    <div id="new">
+    	<h1><center>LATEST NEWS&nbsp;&nbsp;</center></h1><br>
+    	1. <a id="a2" href="https://www.timesnownews.com/india/photo-gallery/assam-flood-2020-photos-45-lakh-people-affected-as-situation-worsens/621924" style="color:black;font-weight: bold;">Assam flood 2020 photos: More than 2.8 million people affected in 26 districts<br> as situation worsens<br><br>
+    		<img src="https://imgk.timesnownews.com/AP_20196484096663_1594808951__rend_16_9.jpg?tr=w-600" id="im"></a>
+    		<p style="margin-left:80px;" id="p">Seems like the year 2020 is all about the survival of the fittest .  With one disaster after another threatening the civilization , life is now all about  'just surviving'  .  While entire India is battling the constant increase in Covid-19 cases, heavy rainfall has joined hands in doubling the challenge by wreaking havoc in some of the states . Assam is one such state where the situation is worsening every day. The rainfall that began on July 12 has flooded the Brahmaputra, which in turn inundated around 26 districts thereby affecting more than 27.8 lakh people all across the state. According to the Assam State Disaster Management Authority (ASDMA), more than 90 people have lost their lives due to the flood and landslides. The flood has also submerged almost the entire of the Kaziranga National Park. <a href="https://www.timesnownews.com/india/photo-gallery/assam-flood-2020-photos-45-lakh-people-affected-as-situation-worsens/621924" style="color:blue;" id="a2">Read More....</a></p>
+    		<br>
+    	2. <a id="a2" href="https://timesofindia.indiatimes.com/india/assam-flood-situation-still-grim-heavy-rain-affects-normal-life-in-other-northeastern-states/articleshow/77090218.cms" style="color:black;font-weight: bold;">Assam flood situation still grim; heavy rain affects normal life in other northeastern states<br><br>
+    		<img src="https://timesofindia.indiatimes.com/thumb/msid-76046744,width-1200,height-900,resizemode-4/.jpg"
+    		style="height:350px;width:600px;" id="im"></a>
+    		<p style="margin-left:80px;" id="p">GUWAHATI/SHILLONG: Amid rising Covid-19 cases, the flood situation in Assam remained grim on Tuesday while two more people died in Nagaon and Morigaon districts, raising the death toll in the monsoon deluge to 87, while around 24.20 lakh people in 24 of the 33 districts continue to be marooned.
+            Besides Assam, at least five people were killed in floods in Meghalaya's West Garo Hills district where the deluge has affected about one lakh people during the past few days. Meanwhile, heavy monsoon rain affected normal life in most other northeastern states. The rainwater has inundated vast human habitations and low lying areas of Tripura, Meghalaya and Mizoram.<a href="https://timesofindia.indiatimes.com/india/assam-flood-situation-still-grim-heavy-rain-affects-normal-life-in-other-northeastern-states/articleshow/77090218.cms" style="color:blue;" id="a2">Read More....</a></p>
+            <br>
+    	3. <a  id="a2" href="https://www.aljazeera.com/news/2020/07/india-floods-thousands-evacuated-assam-river-banks-burst-200702085733601.html" style="color:black;font-weight: bold;">India floods: Thousands evacuated in Assam as river banks burst<br><br>
+    		<img src="https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2020/7/2/1e97ab1e873b4337ba2a8e37784db5d3_18.jpg"
+    		style="height:350px;width:600px;" id="im"></a>
+    		<p style="margin-left:80px;" id="p">The Brahmaputra River, one of the world's largest rivers that flows from Tibet into India, burst its banks in the northeastern state of Assam over the weekend, flooding more than 2,000 villages.More than a million people have been affected across the state due to the flooding, which also inundated parts of the Kaziranga National Park, home to the world's largest concentration of one-horned rhinos.Nearly 250 relief camps have been set up in more than 20 districts where nearly 30,000 people have taken shelter. National Disaster Response Force and State Disaster Response Force teams have been deployed to rescue people in the flood-affected areas.<a id="a2" href="https://www.aljazeera.com/news/2020/07/india-floods-thousands-evacuated-assam-river-banks-burst-200702085733601.html" style="color:blue;">Read More....</a></p>
+    </div>
+	</body>
+	</html>
